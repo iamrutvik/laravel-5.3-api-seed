@@ -1,0 +1,193 @@
+/*.ui-pnotify.custom .ui-pnotify-title, .ui-pnotify.custom .ui-pnotify-text {
+font-family: Arial, Helvetica, sans-serif !important;
+text-shadow: 2px 2px 3px black !important;
+font-size: 10pt !important;
+color: #FFF !important;
+padding-left: 50px !important;
+line-height: 1 !important;
+text-rendering: geometricPrecision !important;
+}
+.ui-pnotify.custom .ui-pnotify-title {
+font-weight: bold;
+}
+.ui-pnotify.custom .ui-pnotify-icon {
+float: left;
+}
+.ui-pnotify.custom .fa {
+margin: 3px;
+width: 33px;
+height: 33px;
+font-size: 33px;
+color: #000;
+}.agreeformError {width:auto !important;}*/
+
+.ui-pnotify {
+    top: 36px;
+    right: 36px;
+    position: absolute;
+    height: auto;
+    z-index: 2;
+}
+body > .ui-pnotify {
+    /* Notices in the body context should be fixed to the viewport. */
+    position: fixed;
+    /* Ensures notices are above everything */
+    z-index: 100040;
+}
+.ui-pnotify-modal-overlay {
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+body > .ui-pnotify-modal-overlay {
+    position: fixed;
+    z-index: 100039;
+}
+.ui-pnotify.ui-pnotify-in {
+    display: block !important;
+}
+.ui-pnotify.ui-pnotify-move {
+    transition: left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-slow {
+    transition: opacity .6s linear;
+    opacity: 0;
+}
+.ui-pnotify.ui-pnotify-fade-slow.ui-pnotify.ui-pnotify-move {
+    transition: opacity .6s linear, left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-normal {
+    transition: opacity .4s linear;
+    opacity: 0;
+}
+.ui-pnotify.ui-pnotify-fade-normal.ui-pnotify.ui-pnotify-move {
+    transition: opacity .4s linear, left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-fast {
+    transition: opacity .2s linear;
+    opacity: 0;
+}
+.ui-pnotify.ui-pnotify-fade-fast.ui-pnotify.ui-pnotify-move {
+    transition: opacity .2s linear, left .5s ease, top .5s ease, right .5s ease, bottom .5s ease;
+}
+.ui-pnotify.ui-pnotify-fade-in {
+    opacity: 1;
+}
+.ui-pnotify .ui-pnotify-shadow {
+    -webkit-box-shadow: 0px 6px 28px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 6px 28px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 6px 28px 0px rgba(0,0,0,0.1);
+}
+.ui-pnotify-container {
+    background-position: 0 0;
+    padding: .4em;
+    height: 100%;
+    margin: 0;
+}
+.ui-pnotify-container:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.ui-pnotify-container.ui-pnotify-sharp {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.ui-pnotify-title {
+    display: block;
+    margin-bottom: .1em;
+    margin-top: 0;
+}
+.ui-pnotify-text {
+    display: block;
+}
+.ui-pnotify-icon, .ui-pnotify-icon span {
+    display: block;
+    float: left;
+    margin-right: .2em;
+}
+/* Alternate stack initial positioning. */
+.ui-pnotify.stack-topleft, .ui-pnotify.stack-bottomleft {
+    left: 25px;
+    right: auto;
+}
+.ui-pnotify.stack-bottomright, .ui-pnotify.stack-bottomleft {
+    bottom: 25px;
+    top: auto;
+}
+.ui-pnotify.stack-modal {
+    left: 50%;
+    right: auto;
+    margin-left: -150px;
+}
+/* == Dialog Box == */
+
+.ui-widget{font-family:"Source Sans Pro",sans-serif;}
+.ui-widget-content{ background:none; border:none;}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons{ background:#ffffff; border-radius:20px; box-shadow:0 0 10px rgba(0,0,0,0.4); padding:0.5em 1em; border:none;}
+.ui-widget-header{color: #22344b;}
+.ui-widget-header .ui-state-default.ui-dialog-titlebar-close{background:none; min-width:inherit; position:relative; height:30px; width:30px; border:none;margin:0;}
+.ui-state-default .ui-icon{position:relative; text-indent:inherit; height:30px; width:30px;}
+.ui-state-default .ui-icon:before{content:""; display:block; content:"\f00d"; font-family:fontawesome; line-height:30px; color:#888;}
+.ui-dialog .ui-dialog-titlebar{border:none; border-bottom:1px solid #dedede; padding:0.5em 0; background:none; }
+.ui-dialog .ui-dialog-title{font-size: 22px; font-weight: 600; color: #000;}
+.ui-dialog .ui-dialog-content{ font-size:16px; padding:1em 0; color: #666; font-weight: 300;}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background:#3cb6d0; border:none; border-radius:3px; color:#ffffff; font-family:"Source Sans Pro",sans-serif; text-transform:uppercase; font-size:16px; font-weight:700; min-width:86px;}
+.ui-dialog-content.ui-widget-content{height:auto !important;}
+.ui-dialog-content.ui-widget-content p{padding:0;}
+.ui-dialog .ui-dialog-buttonpane{padding:0;}
+.ui-dialog .ui-dialog-buttonpane button{margin:0.5em 0 0.5em 0.4em;}
+.ui-dialog .ui-dialog-buttonpane button + button{background:#22344B;}
+.ui-button-icon-only .ui-icon{margin-left:0;}
+.ui-state-default .ui-icon {
+  height: 100%;
+  left: inherit;
+  position: relative;
+  text-indent: inherit;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+/* ========== Alert Message =============*/
+.alert{
+  display: block;
+  padding: 10px 20px 10px 15px;
+  position: relative;
+  text-align:left;
+  font-family: "Open Sans",sans-serif;
+  border:1px solid;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert > div {
+  display: inline-block;
+  padding: 0 10px;
+}
+.alert .close {
+  position: absolute;
+  right: 0;
+  color:#000000;
+  opacity:0.5;
+  cursor:pointer;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert p{display:inline-block;padding:0;}
+
+/* ==========  End Alert Message =============*/

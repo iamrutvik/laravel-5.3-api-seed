@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:2500px) {
+	
+}
+@media only screen and (max-width:1920px) {
+	
+}
+@media only screen and (max-width:1600px) {
+	
+}
+@media only screen and (max-width:1520px) {
+
+}
+@media only screen and (max-width:1400px) {
+	.dashgrid li{padding:15px;}
+	.nav ul li a{font-size:13px;}
+	
+	.form-row{margin:0 -15px;}	
+	.form-cell{padding:0 15px;}
+	
+	.tabing li{font-size:16px;}
+	.tabing li a{padding:10px 40px;}
+	
+}
+
+@media only screen and (min-width:1000px) and (max-width:1200px) {	
+.wraper{max-width:960px;}
+.nav ul li{padding:10px 2px;}
+.nav ul li a{padding:10px 12px;}
+.dashgrid li{width:25%;}
+
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:768px) and (max-width:999px) {
+.wraper{max-width:720px;}
+.content{padding:40px;}
+.logo { width: 190px;}
+.dashgrid{margin:-10px;}
+.dashgrid li{width:33.33%;padding:10px;}
+.nav ul li{padding:10px 0;}
+.nav ul li a{ font-size:11px; padding:8px 12px;}
+.dash-icon{font-size:50px; line-height:50px; margin:5px auto;}
+.dash-title{font-size:15px;padding:10px;}
+.tab-content{padding:30px;}
+.form-group{padding:0;}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px) {
+.wraper{max-width:600px;}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:640px) {
+.wraper{max-width:420px;}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+.wraper{max-width:300px;}	
+}
+@media (max-height: 700px){
+	.header{padding:10px 0;}
+	.content{padding:30px;}
+	.btn.btn-login{margin:0;}
+	.login-logo {
+	  padding: 30px 0 10px;
+	}
+	.dashgrid{margin:-10px;}
+	.dashgrid li{padding:10px;}
+	.dash-icon{font-size:40px; line-height:40px; margin:2px auto 5px;}
+	.dash-read{padding:5px; font-size:14px;}
+	.dash-title{font-size:14px;padding:6px;}
+}

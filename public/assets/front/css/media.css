@@ -1,0 +1,651 @@
+@media only screen and (max-width:2500px) {
+.banner .logo{padding-top:5%;}
+}
+@media only screen and (max-width:1920px) {
+.banner .logo{padding-top:3%;}	
+.page-wrap::after, .footer{height:265px;}
+.page-wrap{margin-bottom: -265px;}
+}
+@media only screen and (max-width:1600px) {
+.banner .logo{padding-top:0;}
+.footer div.selector{position:absolute}
+.footer .searchbox input{min-width: 250px;}
+.fixed-searchbar fieldset{width:31.9%}
+.product-listing .listing li h3{font-size:32px;margin-bottom: 8px;}
+.product-listing .listing li .half{max-height:213px;min-height:213px;}
+.product-listing .listing li .profile-photo{width:140px;height:140px;}
+.membership-table h2{font-size:46px;}
+}
+@media only screen and (max-width:1400px) {
+h2{font-size:36px;margin-bottom:10px;}
+h3{font-size:28px;}
+h4{font-size:24px;}	
+.home h3{font-size:28px;}
+.home h4, .footer h4{font-size:24px;}
+.home h5{font-size:19px;}
+.big-btn{line-height: 36px;font-size: 15px;min-width: 200px;}
+.banner .logo img{max-width:185px;}
+.banner .logo{margin-bottom:15px;}
+.banner .banner-text{margin-bottom:20px;}
+.searchbox-banner .searchbox{margin-bottom: 16px;}
+.search-btn{margin-top:15px;}
+.section-title{margin-bottom:15px;line-height: 27px;}
+.sticky-logo img{max-width:270px;}
+.left-header{left:8px;top:13px;}
+.login-btn .login span{width: 42px;height: 36px; background-size:42px auto;}
+.left-header .text{font-size:14px;line-height:36px;}
+.login-btn .login .normal{background-position: center -4px;}
+.login-btn .login .hover{background-position: center -78px;}
+.login-btn .login .hover-menu-open{background-position: center -320px;}
+.login-btn .login .normal-menu-open{background-position: center -393px;}
+.header{min-height:62px;}
+.header nav, .fixed-searchbar{top:62px;}
+.header nav li a{font-size: 16px;line-height: 26px;}
+.header nav li{margin-bottom: 15px;}
+.header nav li a::after{height: 16px;width: 15px;background-size:40px auto; background-position:center -443px}
+.header nav li a.active::after, .header nav li a:hover::after{background-position: center -646px;}
+.header nav li.phone a::after{height: 18px;width: 19px;background-size:46px auto; background-position:center -635px}
+.header nav li.phone a:hover::after{background-position: center -795px;}
+.quote h2{font-size:38px;}
+.quote p{font-size:22px;}
+.footer li:last-child{width: 24%;}
+.footer li{width:25%}
+.join-section p{margin-bottom:15px;}
+div.checker, div.checker input, div.checker span{width:22px;height:22px;}
+fieldset .checkbox div.checker input{width:22px;height:22px;}
+fieldset .checkbox div.checker span.checked{background-size:42px auto; background-position:center -877px;}
+form .regi-btn{font-size:16px;line-height:35px;}
+fieldset .price{font-size:42px;}
+.my-account .fixed-bg{height:500px;}
+.fixed-banner{height:500px;}
+.fixed-banner .cover-photo{height:500px;}
+.profile-info .profile-pic{width:140px;height:140px;margin-top:-70px;}
+.contact-info a{font-size:21px;}
+.contact-info{max-width: 230px;width: 230px;}
+.profile-content .profile-name{font-size: 28px;left: 210px;}
+.profile-content address{left:210px;}
+.profile-info{margin-top:-220px;}
+.edit-account .cover-photo img{padding-top:62px;}
+.page-wrap::after, .footer{height:258px;}
+.page-wrap{margin-bottom: -258px;}
+.fixed-searchbar fieldset{width: 31.7%;}
+.product-listing .listing li h3{font-size: 26px;margin-bottom: 6px;}
+.product-listing .listing .contact-info a{font-size: 19px;}
+.product-listing .listing li .half{max-height: 204px;min-height:204px;}
+.product-listing .listing li .profile-photo{height: 130px;width: 130px;}
+.membership-table h2{font-size:42px;margin-bottom: 25px;}
+.membership-table{padding: 100px 0 30px;}
+.membership-table .price{font-size: 45px;margin-bottom: 12px;}
+.membership-table .membership-links a{font-size: 20px;min-width: 281px;padding:5px 0}
+.membership-table table tr{height: 52px;}
+.contact-info a.edit-details{font-size:15px;margin-top:8px;}
+.member-banner{padding: 140px 0 75px;}
+.member-banner h5{font-size:22px;}
+.member-forum table{font-size:15px;}
+.member-forum table tbody tr:first-child td, .member-forum table tbody tr:first-child th{padding: 28px 10px;}
+.member-forum table tr td, .member-forum table tr th{line-height: 21px;padding: 10px 10px;}
+.member-forum table thead th:first-child{width:42%}
+.recent-posts .topics tr th, .recent-posts .topics tr td{padding:10px;}
+.recent-posts .topics tr:first-child th, .recent-posts .topics tr:first-child td{padding: 21px 10px;}
+.recent-posts h5{margin-bottom: 16px;}
+.header .download-header.sticky-logo span{font-size:26px;}
+.download-csv .searchbox-banner{margin: 0 auto 100px;}
+.download-csv h4{font-size:25px;}
+.download-csv table thead tr th{font-size:15px;}
+.download-csv table thead th:first-child{width:8%;}
+.download-csv table thead th:nth-child(2){width:60%;}
+.registration-form ul li a{height: 65px; width: 65px;line-height: 57px;font-size: 31px;}
+.registration-form{padding:60px 0 50px;}
+.registration-form .actionBar{margin-top: 20px;}
+_:-ms-input-placeholder, :root .login-section{top:33%; transform:translateY(-33%); -webkit-transform:translateY(-33%);}
+_::-moz-svg-foreign-content, :root .registration-form ul li a {line-height:65px;}
+@media \\0 screen {.registration-form ul li a {line-height:65px;}}
+.pagination .paging a{font-size: 35px;}
+.new-topic fieldgroup{max-width:40%}
+.edit-account form fieldgroup{width:40%}
+}
+@media only screen and (max-width:1200px) {
+h2{font-size:34px;}	
+h3{font-size:24px;}
+h4{font-size:22px;}
+.home h3{font-size:24px;}
+.home h4, .footer h4{font-size:22px;}	
+.home h5{font-size: 20px;}
+.big-btn{font-size: 14px;line-height: 33px;min-width: 180px;}
+.banner .logo img{max-width: 175px;}
+.banner .banner-text{margin-bottom: 20px;}
+.searchbox input{min-width: 262px;}
+.searchbox.nearby input{width: 358px;}
+.section-title{margin-bottom:20px;}
+.sticky-logo img{max-width: 230px;}
+.header .searchbox input{min-width: 200px;}
+.become-member-btn{font-size:14px;}
+.header{min-height: 58px;}
+.header nav, .fixed-searchbar{top:58px;}
+.left-header{left: 6px;top: 10px;}
+.header nav li{margin-bottom: 10px;}
+.header nav li a{font-size: 14px;line-height: 24px;}
+.header nav li a::after{background-position: center -353px;background-size: 32px auto;}
+.header nav li a.active::after, .header nav li a:hover::after{background-position: center -515px;}
+.why-join-us .details ul{max-width:92%}
+.join-us{padding: 45px 0 80px;}
+.quote h2{font-size: 34px;}
+.quote p{font-size: 20px;}
+.footer li, .footer li:last-child{width:25%;}
+.footer div.selector, .footer div.selector span{font-size:13px;}
+.footer .searchbox input{font-size:13px;min-width:170px;width:170px;}
+.footer .searchby::before{background-position: center -257px;background-size: 40px auto;}
+.footer .searchbox-banner .searchbox{margin-bottom: 15px;}
+.search-btn{margin-top: 22px;}
+fieldset div.checker{margin-right: 4px;}
+.registration-form fieldgroup{padding:0px 10px}
+.registration-form ul li{width:33%}
+.registration-form fieldgroup:last-child{padding-right:16px;}
+.profile-info{max-width:80%;}
+.profile-info .profile-pic{width: 120px;height: 120px;margin: -60px auto 0;}
+.profile-content .profile-name{left: 200px;font-size: 25px;}
+.contact-info a{font-size:18px;}
+.contact-info{width:220px;max-width:220px;}
+.contact-info a::before{background-size:40px auto}
+.contact-info a.profile-number::before{background-position: center -552px;}
+.contact-info a.profile-mail::before{background-position: center -595px;}
+.contact-info a{padding: 0 6px 0 30px;}
+.profile-content{width:70%;}
+.profile-content address{left:200px;top:16px;}
+.profile-content h6{font-size:19px;margin-bottom:8px;}
+.about-profile{margin-top:40px;padding-right:7%}
+.profile-info{margin-top:-220px;}
+.profile-content p{margin-bottom:10px;}
+.fixed-banner{height: 470px;}
+.my-account .fixed-bg{height:470px;}
+.fixed-banner .cover-photo{height:470px;}
+.edit-account .cover-photo img{padding-top:58px;}
+.page-wrap::after, .footer{height:256px;}
+.page-wrap{margin-bottom: -256px;}
+.fixed-searchbar fieldset{width: 31.3%;}
+.fixed-searchbar .search-btn-sticky{height:28px;font-size: 15px;}
+.fixed-searchbar .searchbox-banner .keyword::before{background-position: center -1037px;background-size: 40px auto;}
+.fixed-searchbar fieldset .searchbox button .tik-btn{background-size:35px auto; background-position:center -727px}
+.product-listing .listing{padding: 158px 0 0;}
+.product-listing .listing .result{font-size:14px;}
+.product-listing .listing li p{font-size:13px;line-height: 18px;}
+.product-listing .listing li .read-more{font-size:13px;}
+.product-listing .listing li h3{font-size: 24px;margin-bottom: 4px;}
+.product-listing .listing li .half{max-height: 218px;min-height: 218px;}
+.product-listing .listing .contact-info a{font-size: 16px;padding-left:25px;line-height:33px;}
+.product-listing .listing .contact-info a::before{left: 3px;}
+.product-listing .listing .contact-info a span{font-size: 10px;}
+.product-listing .listing li .profile-photo{height: 115px;width: 115px;}
+.membership-table h2{font-size: 36px;margin-bottom: 18px;}
+.membership-table{padding: 90px 0 30px;}
+.membership-table .price{font-size: 40px;margin-bottom: 8px;}
+.membership-table .price-period{font-size:11px;margin-bottom:12px;}
+.membership-table .membership-links a{font-size: 17px;min-width: 261px;}
+.membership-table table{font-size:15px;}
+.contact-info a.edit-details{font-size:14px;margin-top:8px;}
+.member-banner{padding: 135px 0 70px;}
+.member-banner h5{font-size: 20px;}
+.recent-posts h5{font-size:23px;}
+.member-forum table{font-size: 14px;}
+.member-forum table tbody tr:first-child td, .member-forum table tbody tr:first-child th{padding:16px 10px}
+.recent-posts .topics tr:first-child th, .recent-posts .topics tr:first-child td{padding: 16px 10px;}
+.recent-posts .add-posts{width: 25px;height: 25px;margin-left: 5px;background-size:38px auto; background-position:center -1033px;}
+.recent-posts a:hover .add-posts{background-position: center -1182px;}
+.header .download-header.sticky-logo span{font-size:24px;}
+.download-csv .searchbox-banner{margin: 0 auto 80px;}
+.download-csv h4{font-size:20px;}
+.download-csv .searchbox-banner h4{margin-bottom: 6px;}
+.download-csv table thead tr th{font-size:14px;}
+.download-csv table thead th:first-child{width:8%;}
+.download-csv table thead th:nth-child(2){width:50%;}
+.download-csv .recent-posts h5{margin-bottom:12px;}
+.download-csv table tbody td{font-size:15px;}
+div.checker, div.checker input, div.checker span{height: 18px;width: 18px;}
+fieldset .checkbox div.checker span.checked{background-position: center -668px;background-size: 32px auto;}
+fieldset .checkbox label, .wizard > .content .checkbox label{font-size:11px;}
+fieldset label{font-size:13px;}
+form .regi-btn{font-size: 14px;line-height: 30px;}
+.pagination{margin: 30px auto 0;}
+.pagination .paging a{font-size: 30px;}
+.pagination .buttonNext{font-size:23px;background-position: 34px -475px;background-size: 40px auto;padding-right: 20px;}
+.product-listing{padding-bottom: 50px;}
+.pagination .paging{font-size:18px;}
+.new-topic fieldgroup{max-width:50%}
+.new-topic form{padding:50px 0;}
+.edit-account form fieldgroup{width:49%}
+.edit-account form{padding:50px 0;}
+.pagination-topics li a, .pagination-topics .button, .pagination-topics li.active{font-size: 12px;padding: 7px 12px;}
+.pagination-topics .button .pagi-icons{width: 15px;height: 15px;background-size: 45px auto;}
+.pagination-topics .button .pagi-icons.next {background-position: center -1572px;}
+.pagination-topics .button .pagi-icons.last{background-position: center -1496px;}
+.pagination-topics .button .pagi-icons.prev{background-position: center -1537px;}
+.pagination-topics .button .pagi-icons.first{background-position: center -1453px;}
+.pagination-topics .button:hover .pagi-icons.first{background-position: center -1617px;}
+.pagination-topics .button:hover .pagi-icons.prev{background-position: center -1702px;}
+.pagination-topics .button:hover .pagi-icons.next{background-position: center -1736px;}
+.pagination-topics .button:hover .pagi-icons.last{background-position: center -1660px;}
+}
+@media only screen and (max-width:1024px) {
+h2{font-size:30px;}
+h3{font-size:20px;}	
+h4{font-size:18px;}
+.home h3{font-size: 20px;}
+.home h4, .footer h4{font-size:18px;}
+.home h5{font-size: 17px;}
+.header{min-height: 48px;}
+.header nav, .fixed-searchbar{top:48px;}
+.menu-logo{font-size: 16px;line-height: 40px;}
+.header nav li{margin-bottom: 7px;}
+.header nav li a{font-size: 13px;line-height: 20px;}
+.header nav li.email a::after{height: 20px;width: 16px; background-size:44px auto; background-position:center -654px}
+.header nav li.email a:hover::after{background-position: center -815px;}
+.header nav li.phone a::after{background-position: center -579px;background-size: 42px auto;}
+.header nav li.phone a:hover::after{background-position: center -724px;}
+.banner .logo img{max-width: 145px;}
+.banner .logo{margin-bottom: 12px;}
+.header .searchbox input{min-width: 140px;width: 140px;}
+.join-section:first-child .details h3{margin-bottom: 15px;}
+.join-section p{margin-bottom: 20px;}
+.why-join-us .details ul{max-width: 95%;}
+.why-join-us .details ul li .small-info{max-width:65%;}
+.more-info{font-size: 10px;line-height: 24px;}
+.big-btn{font-size: 12px;line-height: 28px;min-width: 155px;margin:0 3px;}
+.join-section p{font-size:15px;margin-bottom:10px;}
+.why-join-us .image{min-height: 330px;}
+.quote h2{font-size: 28px;}
+.quote p{font-size: 18px;}
+.banner .banner-text{margin-bottom: 15px;}
+.searchbox input{min-width: 200px; font-size:13px; padding: 6px 10px 6px 28px;height: 28px;}
+.join-us .searchbox input{padding-left:28px;}
+.searchbox.nearby input{width: 295px;}
+div.selector, div.selector span{font-size:13px;height: 28px;line-height: 28px;}
+.searchbox.nearby input{width: 100%;}
+.search-btn{font-size:15px;margin: 20px auto 0;}
+.searchbox-banner .searchbox{margin-bottom: 15px;}
+.section-title{line-height:25px;}
+.why-join-us .details ul li{margin-bottom:12px;font-size:15px;}
+.sticky-logo img{max-width: 180px;}
+.login-btn .login span{background-size: 33px auto;height: 30px;width: 35px;}
+.left-header .text{font-size: 13px;line-height: 30px;}
+.login-btn .login .normal{background-position: center -3px;}
+.login-btn .login .hover{background-position: center -61px;}
+.login-btn .login .hover-menu-open{background-position: center -252px;}
+.login-btn .login .normal-menu-open{background-position: center -309px;}
+.searchby::before, .footer .searchby::before{background-size: 30px auto;background-position: center -192px;}
+.searchbox select, div.selector select{height: 26px;}
+div.selector select{top: 0;}
+.searchbox div.selector::after{top:10px;}
+.sticky-header .searchbox div.selector::after{top: 10px;}
+.searchbox button{font-size: 15px;line-height: 24px;}
+.searchbox button:not(*:root){line-height:26px;}
+_:-ms-input-placeholder, .searchbox button{line-height:26px;}
+.join-us .searchbox .relative::before{width: 16px;left: 7px;background-size:40px auto; background-position:center -170px}
+.join-us h3{margin-bottom: 15px;}
+.join-us p{font-size: 16px;margin-bottom: 25px;}
+.footer h4{margin-bottom: 12px;}
+.footer ul{padding: 35px 10px 0;}
+.footer li{width:49%; display:inline-block;vertical-align:top;float:none}
+.footer li:last-child{width:50%;}
+.footer li:last-child, .footer li:nth-child(3){margin:30px auto 0}
+.nearby::before{background-position: center -162px;background-size: 31px auto;}
+.registration-form{padding: 60px 0 40px;}
+.registration-form fieldgroup{width:90%;padding:0 10px}
+.registration-form fieldgroup.step-1.done, .registration-form fieldgroup.step-2.done, .registration-form fieldgroup.step-3.done, .registration-form fieldgroup.step-2.selected,.registration-form fieldgroup.step-3.selected{display:block !important;margin:0 auto;padding:0 10px;}
+.registration-banner h5{font-size:20px;}
+.registration-banner .logo{max-width:250px;margin:12px auto}
+.registration-form fieldgroup:last-child{padding:0 10px;float:none;margin:0 auto}
+.registration-form fieldgroup.step-1{left:0;transform:none; -webkit-transform:none;right:0;margin:0 auto;display:block}
+.buttonNext{background-position: right -1195px;background-size: 40px auto;padding-right: 38px;}
+.registration-form fieldgroup.step-2.selected, .registration-form fieldgroup.step-1.done, .registration-form fieldgroup.step-2.done, .registration-form fieldgroup.step-1{margin-bottom:25px}
+.registration-form fieldgroup.step-2.selected{overflow:visible}
+.registration-form fieldgroup.step-2, .registration-form fieldgroup.step-3.selected, .registration-form fieldgroup.step-2.done, .registration-form fieldgroup.step-2{overflow:hidden}
+.registration-form fieldgroup.step-2, .registration-form fieldgroup.step-3.selected, .registration-form fieldgroup.step-2.done, .registration-form fieldgroup.step-2, .registration-form fieldgroup.step-3{display:block !important}
+.registration-form ul li{width:32%}
+.registration-form ul li a {line-height:65px;}
+_::-moz-svg-foreign-content, :root .registration-form ul li a {line-height:65px;}
+@media \\0 screen {.registration-form ul li a {line-height:65px;}}
+fieldset:last-child{margin-bottom:5px;}
+fieldset .checkbox.terms{width:100%;}
+fieldset div.checker{margin-right: 10px;}
+fieldset .checkbox div.checker span.checked{background-position: center -626px;background-size: 30px auto;}
+fieldset .checkbox div.checker input{height: 16px;width: 16px;}
+div.checker, div.checker input, div.checker span{height: 16px;width: 16px;}
+fieldset .checkbox div.checker span{vertical-align:top;}
+.profile-content{width: 100%;margin-top: 30px;}
+.profile-info{padding:10px 15px 30px;margin-top: -160px;}
+.about-profile{margin-top:0;}
+.my-account .fixed-bg{height: 365px;}
+.fixed-banner{height:365px;}
+.fixed-banner .cover-photo{height:365px;}
+.contact-info a{font-size: 16px;line-height: 32px;}
+.contact-info a::before{background-size: 33px auto;}
+.contact-info a.profile-number::before{background-position: center -455px;}
+.contact-info a.profile-mail::before{background-position: center -491px;}
+.profile-info .profile-pic{height: 110px;margin: -65px auto 0;width: 110px;}
+.profile-content .profile-name{font-size: 21px;left: 190px;}
+.profile-content address{font-size: 15px;left: 190px;top: 10px;}
+.edit-account .cover-photo img{padding-top:48px;}
+.profile-content ul li::before{top:7px;}
+.page-wrap::after, .footer{height:394px;}
+.page-wrap{margin-bottom: -394px;}
+.footer .searchbox input{width:260px;}
+.fixed-searchbar fieldset{width: 50%;}
+.fixed-searchbar fieldset:nth-child(3){margin-top:15px;}
+.fixed-searchbar .search-btn-sticky{margin-top:38px;}
+.product-listing .listing{padding: 60px 0 0;}
+.product-listing .listing li{margin-bottom:20px;border-bottom:1px solid #000}
+.product-listing .listing li .half{width:100%;max-height:200px;min-height:100%;}
+.product-listing .listing li .contact-info{position:relative;}
+.product-listing .listing li .half.right{max-height:100%}
+.product-listing .listing li p{min-height:100%}
+.fixed-searchbar{position:relative}
+.fixed-searchbar fieldset .searchbox div.selector{padding-left:27px;}
+.fixed-searchbar fieldset input, .fixed-searchbar fieldset .searchbox.nearby input{padding-top:4px;}
+.product-listing .listing li h3{font-size: 22px;}
+.product-listing .listing li .profile-photo{height: 110px;width: 110px;}
+.product-listing .listing .contact-info a::before{top:9px;}
+.product-listing .listing .contact-info a{line-height:31px;}
+.membership-table h2{font-size: 30px;margin-bottom: 12px;}
+.membership-table{padding: 80px 0 25px;}
+.membership-table .price{font-size: 36px;margin-bottom: 5px;}
+.membership-table table{margin: 20px auto 35px;}
+.membership-table table{font-size:14px;}
+.membership-table table th, .membership-table table td{padding:0 25px;}
+.membership-table table tr{height: 46px;}
+.membership-table .membership-links a{font-size: 16px;min-width: 241px;}
+.contact-info a.edit-details{font-size:13px;margin-top:6px;}
+.member-banner{padding: 110px 0 60px;}
+.member-banner h5{font-size: 18px;}
+.recent-posts h5{font-size: 21px;}
+.recent-posts .searchbox button{line-height:27px;font-size:11px;}
+.member-forum table{font-size: 13px;}
+.member-forum table thead tr th{padding:7px;}
+.member-forum table tbody tr th, .member-forum table tbody tr td{padding: 10px;}
+.member-forum table tbody tr:first-child td, .member-forum table tbody tr:first-child th{padding: 12px 10px;}
+.recent-posts .topics tr:first-child th, .recent-posts .topics tr:first-child td{padding:10px;}
+.recent-posts .topics tr td, .recent-posts .topics tr th{ line-height:20px;}
+.detailed-reply h5 p.small{margin:0;text-decoration:none;width:100%}
+.detailed-reply h5{margin-bottom:0px;}
+.detailed-reply p{font-size:14px;}
+.header div.selector{width: 95px !important;}
+.header .download-header.sticky-logo span{font-size: 18px;}
+.download-csv .downloadbtn{line-height:27px;font-size: 11px;}
+.download-csv{padding-top: 45px;}
+.download-csv .searchbox-banner{margin: 0 auto 60px;}
+.download-csv h4{font-size: 18px;}
+.download-csv .recent-posts h5{font-size:18px;}
+.download-csv table tbody td{font-size:14px;}
+.download-csv table thead th:first-child{width: 5%;}
+.download-csv table thead th:nth-child(2){width: 35%;}
+.download-csv .searchbox div.selector span::after{background-position: center -1189px;}
+.download-csv .searchbox div.selector.focus span::after{background-position: center -1222px;}
+a{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.pagination{margin: 25px auto 0;}
+.pagination .paging{font-size:16px;}
+.pagination .paging a{font-size: 25px;}
+.pagination .buttonNext{font-size:23px;background-position: 34px -475px;background-size: 40px auto;padding-right: 20px;}
+.product-listing{padding-bottom: 45px;}
+.pagination .paging .full-width{font-size:14px;}
+.pagination .buttonNext{background-position: 32px -413px;background-size: 35px auto;font-size: 20px;}
+.new-topic fieldgroup{max-width:100%}
+.new-topic form{padding:40px 0;}
+.edit-account form fieldgroup{width:100%}
+.edit-account form{padding:40px 0;}
+.close-icon{background-size:45px auto; background-position: center -1785px;width: 9px;height: 9px;top: 10px;right:100px;}
+.recent-posts .close-icon:hover{background-position:center -1785px}
+}
+
+
+@media only screen and (max-width:999px) {
+.wrap{max-width:720px;}
+}
+@media only screen and (max-width:767px) {
+h3{font-size:17px;}
+.home h3{font-size: 17px;}
+.home h5{font-size: 15px;}
+.banner .logo img{max-width: 125px;}
+.banner .logo{margin-bottom: 8px;}
+.banner .banner-text{margin-bottom: 12px;}
+.searchbox-banner .searchbox{margin-bottom: 12px;}
+.searchbox input{font-size: 12px;padding-bottom:5px;}
+div.selector, div.selector span{font-size: 12px;}
+.searchbox button{font-size: 14px;}
+.searchby::before, .footer .searchby::before{background-position: center -172px;background-size: 27px auto;}
+.nearby::before{background-position: center -145px;background-size: 28px auto;}
+.search-btn{font-size: 14px;margin: 15px auto 0;line-height: 26px;}
+.searchbox-banner .searchbox{margin-bottom: 10px;}
+.section-title{margin-bottom: 15px;line-height: 22px;}
+.become-member-btn{font-size: 13px;line-height: 25px;}
+.join-section:first-child .details h3{margin-bottom: 8px;}
+.join-section p{font-size: 14px;margin-bottom: 8px;}
+.why-join-us .details ul li{font-size: 14px;}
+.why-join-us .image{min-height: 300px;}
+.more-info{line-height:22px;}
+.why-join-us .details ul{max-width: 100%;}
+.why-join-us .details ul li .small-info{max-width: 63%;}
+.join-section .tooltip{margin-top: 8px;}
+.big-btn{font-size: 11px;line-height: 25px;min-width: 142px;margin:0;}
+.quote h2{font-size: 24px;}
+.quote p{font-size: 17px;}
+.footer li, .footer li:last-child{width:49%;float:none; display:inline-block;vertical-align:top;}
+.footer li:nth-child(3){margin-top:30px;}
+.footer-bottom a{font-size: 12px;}
+.join-us .thanks-msg{font-size:13px;}
+.sticky-header.header .search-icon{display:block;float:right;cursor:pointer;background-position: center -256px;
+    background-size: 40px auto;}
+.header .searchbox{ position:absolute;right:10px; top:50px;display:none}
+.sticky-header.header .searchbox{top:127%;display:none;box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4); -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4);}
+.header .searchbox.visible{opacity:1;display:block;}
+.registration-banner h5{font-size:18px;}
+.registration-banner .logo{max-width:220px;margin:6px auto}
+.my-account .fixed-bg{height: 320px;}
+.fixed-banner{height:320px;}
+.fixed-banner .cover-photo{height:320px;}
+.profile-info .profile-pic{height: 100px; width: 100px;}
+.contact-info a{padding: 0 4px 0 25px;font-size: 14px;line-height: 28px;}
+.contact-info a span{font-size: 11px;line-height: 27px;}
+.contact-info{max-width: 190px;width: 190px;}
+.contact-info a::before{top: 7px;left: 2px;}
+.profile-content h6{font-size: 17px;margin-bottom: 5px;}
+.profile-content p{font-size: 13px;line-height: 21px;}
+.profile-content ul li{font-size:13px}
+.about-profile{padding-right:5%}
+.profile-content address::before{width: 15px;background-size:32px auto; background-position:center -167px}
+.profile-content .profile-name{font-size: 19px;left: 172px;}
+.profile-content address{font-size: 13px;left: 172px;padding: 0 0 0 22px;}
+.profile-content{margin-top: 20px;}
+.membership-table h2{font-size: 26px;margin-bottom: 8px;}
+.membership-table .price{font-size: 30px;margin-bottom: 2px;}
+.membership-table .price-period{font-size: 10px;margin-bottom: 8px;}
+.membership-table table tr{height: 40px;}
+.membership-table table{font-size: 13px;margin: 15px auto 30px;}
+.membership-table table th, .membership-table table td{padding:0 15px;}
+.contact-info a.edit-details{font-size:12px;margin-top:5px;}
+.recent-posts .topics{width:100%;padding:0;margin-top:30px;float:none}
+.recent-posts .posts{float:none;width:100%}
+.topics.fl tbody, .topics.fl tbody tr, .topics.fl tbody tr td{display: block;width: 100%;}
+.recent-posts .topics tr td, .recent-posts .topics tr th{border-bottom:0;}
+.recent-posts .topics tr:last-child{border-bottom:1px solid rgba(214, 214, 214, 0.4)}
+.member-banner h5{font-size: 17px;}
+.member-banner{padding: 95px 0 50px;}
+.recent-posts h5{font-size: 19px;}
+.download-csv .searchbox-banner{max-width:400px;}
+.download-csv .downloadbtn{font-size: 10px;padding: 0 15px;}
+.download-csv .searchbox-banner{margin: 0 auto 50px;}
+.download-csv h4{font-size: 16px;}
+.download-csv .recent-posts h5{font-size: 16px;}
+.download-csv .recent-posts .add-posts{background-position: center -870px;background-size: 32px auto;height: 20px;width: 20px;}
+.header .download-header.sticky-logo span{font-size: 15px;}
+.download-csv table{max-width:85%}
+.download-csv table thead tr th{font-size: 13px;}
+.download-csv table tbody td{font-size: 13px;}
+.registration-form ul li{width: 32%;}
+}
+
+@media only screen and (max-width:640px) {
+h2{font-size:26px;}	
+html{height: auto;}
+html.full-height{height:100%}
+.why-join-us .image{width:100%;}
+.why-join-us .details{width:100%;padding: 5% 2%;}
+.why-join-us .details ul li:last-child{margin-bottom:0;}
+.quote h2{font-size: 20px;}
+.quote p{font-size: 15px;}
+.join-us{padding: 40px 0 65px;}
+.footer li:nth-child(2), .footer li:nth-child(3), .footer li:last-child{margin-top:15px;}
+.footer li{padding-bottom:15px;border-bottom:1px solid #cdcdcd;}
+.footer li:last-child{border-bottom:0;}
+.footer li, .footer li:last-child{width:100%;}
+.footer li p, .footer li address{min-height:100%}
+.footer li p br{display:none}
+.map-icon{width: 18px;height: 22px;background-size:36px auto;background-position:center -188px}
+.why-join-us .details ul li .small-info{max-width: 75%;}
+.header nav{width:220px;}
+.sticky-menu #ascrail2000{left:214px !important}
+.header nav li a{font-size: 12px;line-height: 18px;}
+.header nav li{margin-bottom: 5px;}
+#mcTooltipWrapper{display:none !important;}
+fieldset label{font-size:13px;}
+.registration-form{padding: 50px 0 30px;}
+.registration-banner h5{font-size:16px;}
+.registration-banner .logo{max-width:195px;margin:5px auto}
+form .regi-btn{font-size: 14px;line-height: 30px;}
+.about-profile, .right-sidebar{width:100%;float:none;padding:0;}
+.edit-account .about-profile{margin-bottom:20px;}
+.profile-info .profile-pic{height: 80px;width: 80px;margin: -50px auto 0;}
+.fixed-banner, .my-account .fixed-bg, .fixed-banner .cover-photo{height: 280px;}
+.contact-info a{font-size: 13px;line-height: 26px;padding:0 6px;}
+.contact-info a span{font-size: 10px;line-height: 24px;}
+.contact-info a::before{display:none}
+.contact-info{max-width: 160px;width: 160px;}
+.profile-content .profile-name{font-size: 16px;left: 141px;top: auto;bottom:100.3%;}
+.profile-content address::before{background-position: center -130px;background-size: 25px auto;width: 12px;}
+.profile-content address{font-size: 11px;left: 141px;padding: 0 0 0 17px;}
+.profile-content h6{font-size: 15px;margin-bottom: 5px;}
+.profile-content p{font-size: 12px;line-height: 19px;margin-bottom: 8px;}
+.profile-content ul li{font-size:12px;line-height:20px;}
+.profile-content ul{margin-bottom: 10px;padding-left: 12px;}
+.page-wrap::after, .footer{height:auto;}
+.page-wrap{margin-bottom:0;}
+.fixed-searchbar fieldset{width:100%;padding:0;}
+.fixed-searchbar .searchbox-banner .search-title{font-size:12px;margin-bottom: 2px;}
+.fixed-searchbar .search-btn-sticky{margin-top: 18px;}
+.fixed-searchbar fieldset:nth-child(3), .fixed-searchbar fieldset{margin-top:15px;float:none;display:inline-block;width:100%;vertical-align:top}
+.fixed-searchbar fieldset:first-child{margin-top:0;}
+.fixed-searchbar .searchbox-banner .searchbox{height:28px;}
+.product-listing .listing li h3{font-size: 20px;}
+.product-listing .listing li .profile-photo{height: 100px;width: 100px;}
+.product-listing .listing li .half{max-height: 170px;min-height: 100%;}
+.product-listing .listing .result{font-size: 13px;}
+.product-listing .listing li address{font-size:12px;}
+.product-listing .listing li address::before{background-position:center -130px; background-size:25px auto}
+.product-listing .listing li .read-more{font-size: 12px;}
+.product-listing .listing li .contact-info a{padding:0 10px;}
+.membership-table h2{font-size: 24px;}
+.membership-table .price{font-size: 22px;}
+.membership-table table{max-width:85%;font-size: 12px;margin: 10px auto 25px;}
+.membership-table table tr{height: 36px;}
+.membership-table .membership-links a{font-size: 15px;min-width: 211px;margin: 0 2px;}
+.table-responsive{display: block;overflow-x: auto;width: 100%;max-width:100%;min-height: 0.01%;overflow-y: hidden;border:1px solid #ddd;}
+.table-responsive tbody tr td, .table-responsive tbody tr th, .table-responsive thead tr td, .table-responsive thead tr th{white-space: nowrap;}
+.member-forum table thead tr th{width:100px}
+.member-forum table thead th:first-child{width:240px;}
+.why-join-us .image{min-height: 300px;}
+.download-csv table thead tr th{font-size: 12px;height: 30px;}
+.registration-form ul li a{font-size: 24px;height: 55px;line-height: 47px;width: 55px;}
+.registration-form{padding: 30px 0 30px;}
+.registration-form .actionBar{margin-top: 5px;}
+.registration-form .formValidation{margin: 25px auto 0;}
+.buttonNext{background-position: right -1042px;background-size: 35px auto;font-size: 22px;padding-right: 32px;}
+fieldset .price{font-size: 35px;}
+.join-us p{font-size:15px;}
+.login-section{top:55%; transform:translateY(-50%); -webkit-transform:translateY(-50%);}
+.pagination .paging a{font-size: 20px;}
+.pagination .paging{font-size: 14px;}
+.pagination .paging .full-width{font-size: 12px;}
+.pagination .buttonNext{background-position: 29px -376px;background-size: 32px auto;font-size: 18px;}
+.pagination{margin: 15px auto 0;}
+.product-listing{padding-bottom: 30px;}
+form h4{margin-bottom: 18px;}
+}
+
+@media only screen and (max-width: 479px) {
+h2{font-size:22px;}
+.home h3{font-size: 17px;}	
+.home h5{font-size: 14px;}
+.banner{padding: 18px 0 55px;}
+.banner .logo img{max-width: 105px;}
+.sticky-logo img{max-width: 135px;}
+.header{padding:12px 8px;}
+.login-btn .login span{width: 24px;background-size: 25px auto;height: 24px;}
+.login-btn .login .normal{background-position: center -1px;}
+.login-btn .login .hover{background-position: center -46px;}
+.why-join-us .details ul li .small-info{max-width: 62%;}
+.quote h2{font-size: 15px;}
+.quote p{font-size: 13px;}
+.footer-bottom p, .footer-bottom .footer-links{display:block;float:none;display:block;text-align:center;}
+.footer-bottom{line-height:24px;padding:8px 0}
+.why-join-us .details{padding: 25px 2%;}
+.login-section h5{font-size:21px;margin-bottom:12px;}
+.login-page input[type="submit"]{font-size: 18px;line-height: 40px;}
+.registration-banner h5{font-size:15px;}
+.registration-banner .logo{max-width:175px;margin:4px auto}
+.registration-banner{padding:20px 0 30px;}
+fieldset .checkbox.terms span{font-size: 10px;}
+form .regi-btn{font-size: 13px;line-height: 27px;}
+.fixed-banner, .my-account .fixed-bg, .fixed-banner .cover-photo{height: 200px;}
+.profile-info{margin-top: -75px;}
+.fixed-content{display: block;}
+.contact-info{margin:10px auto 0;}
+.profile-content .profile-name, .profile-content address{position:relative;top:auto;left:auto;margin-bottom:5px;color:#000;bottom:auto;}
+.profile-content address{margin-bottom:15px;}
+.profile-content h6{font-size: 13px;margin-bottom: 3px;}
+.profile-content .profile-name{font-size: 17px; line-height:25px;}
+.profile-info{max-width: 85%;}
+.left-header .text{font-size:10px;}
+.sticky-header.header .left-header .text .responsive, .left-header .text:hover .responsive{background-position:center -1142px;}
+fieldset.half{width:100%;}
+fieldset.half:first-child, fieldset.half:nth-child(2){padding:0;}
+.product-listing .listing{width:85%;}
+.fixed-searchbar .searchbox-banner{max-width:90%}
+.product-listing .listing li .contact-info a{width:100%;text-align:center}
+.product-listing .listing li .profile-photo{height: 80px;width: 80px;}
+.product-listing .listing li .half{max-height: 130px;}
+.product-listing .listing li h3{font-size: 16px;}
+.product-listing .listing li p{font-size: 12px;}
+.membership-table h2{font-size: 22px;}
+.membership-table .price{font-size: 18px;margin-bottom:0}
+.membership-table .price-period{margin-bottom:10px;}
+.membership-table .membership-links a{font-size: 13px;margin: 2px 0;min-width: 175px;}
+.membership-table table{margin: 6px auto 20px;padding: 72px 0 25px;}
+.contact-info a.edit-details{font-size:11px;margin-top:4px;}
+.detailed-reply h5{font-size:17px;}
+.why-join-us .image{min-height: 230px;}
+.download-csv .searchbox-banner{max-width:90%;text-align:center}
+.download-csv .searchbox-banner .searchbox{text-align:left;width:90%}
+.download-csv table thead th{padding:0 8px;}
+.registration-form ul li a{font-size: 18px;height: 45px;line-height: 37px;width:45px;}
+fieldset .checkbox label, .wizard > .content .checkbox label{font-size:11px;}
+fieldset div.checker{margin-right: 7px;}
+fieldset .terms div.checker{margin-right: 12px;}
+fieldset .checkbox label.terms-text{text-align: left;vertical-align: top;width: 90%;}
+.registration-form fieldgroup{width:95%}
+div.selector{width:90px !important}
+.footer div.selector{width: 100px !important;}
+.footer .searchbox input{width: 270px;}
+.qtip{font-size:8.5px;}
+.join-section .big-btn{margin:3px auto;}
+.login-btn .login .normal-menu-open{background-position: center -234px;}
+.login-btn .login .hover-menu-open{background-position: center -191px;}
+.searchbox input{padding-bottom: 5px;}
+.pagination .paging{width:100%;}
+.pagination .next-page{position:relative;text-align:right;right:auto;top:auto;margin-top:10px;}
+.edit-account form .regi-btn.blue{margin-top:10px}
+}
+@media only screen and (max-height:479px) {
+.login-section{position:relative; top:auto; transform:none; -webkit-transform:none;padding:0;}
+.login-page{padding:120px 0 90px;height:auto}
+.login-section.forgotpw-section{padding: 0;}
+html{height:auto; min-height:100%}
+html.full-height{height:auto}
+}
